@@ -79,12 +79,12 @@ end
 # total = (total * 0.9) if total > 100 total 
 # end
 
-# def checkout(cart,coupons)
-#   #define total
-#   total = 0 
-#   new_cart=consolidate_cart(cart)
-#   coupon_cart = apply_coupons(new_cart, coupons)
+def checkout(cart,coupons)
+  #define total
+  total = 0 
+  new_cart=consolidate_cart(cart)
+  coupon_cart = apply_coupons(new_cart, coupons)
   
-#   return total 
-# end 
+  return total 
+end 
 
