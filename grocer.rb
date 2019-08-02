@@ -72,7 +72,8 @@ def checkout(cart,coupons)
   final = consolidate_cart(cart)
   final.each do |food,description|
     total += description[:price]
-  end 
+  e
+  return totla 
 end 
 
 
