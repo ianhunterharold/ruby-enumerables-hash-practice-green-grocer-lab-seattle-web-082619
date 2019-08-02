@@ -66,10 +66,10 @@ def apply_clearance (cart)
   end 
 end
 
-def checkout(cart,coupons)
+def checkout(unsorted_cart,coupons)
   #define total
   total = 0 
-  new_cart=consolidate_cart(cart)
+  new_cart=consolidate_cart(unsorted_cart)
   
   
   return total 
