@@ -75,6 +75,9 @@ def checkout(cart,coupons)
   
   return total 
 end 
+
+
+
 # # reference code below 
 # def checkout(cart, coupons) 
 #   total = 0 
