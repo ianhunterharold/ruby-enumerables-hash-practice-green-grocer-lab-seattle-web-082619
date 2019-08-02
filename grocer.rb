@@ -73,7 +73,8 @@ def checkout(cart,coupons)
   
   final.each do |food,description|
     binding.pry
-    total += description[:price]
+    total += description[:price]*(description[:count])
+    
   end 
   
   
