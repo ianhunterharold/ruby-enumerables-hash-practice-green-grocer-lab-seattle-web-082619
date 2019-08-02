@@ -68,7 +68,7 @@ end
 
 def checkout(cart,coupons)
   total= 0
-  cart[name][:price]
+  new_cart = consolidate_cart(cart) 
   
   return total 
 end 
