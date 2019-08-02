@@ -68,7 +68,8 @@ end
 
 def checkout(unsorted_cart,coupons)
   #define total
-  consolidate_cart(unsorted_cart)
+ new_cart= {}
+ new_cart = consolidate_cart(unsorted_cart) 
   
 
 end 
