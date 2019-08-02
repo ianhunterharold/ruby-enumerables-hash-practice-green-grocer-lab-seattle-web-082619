@@ -68,9 +68,11 @@ end
 
 def checkout(cart,coupons)
   total= 0
+
   consolidate_cart(item) 
   apply_coupons(cart, coupons)
   apply_clearance (cart)
+  total += cart[:price]
   return total 
 end 
 
