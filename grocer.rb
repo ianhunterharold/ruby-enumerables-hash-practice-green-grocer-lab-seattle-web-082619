@@ -71,7 +71,6 @@ def checkout(cart,coupons)
   total = 0 
   new_cart=consolidate_cart(cart)
   
-  coupon_cart = apply_coupons(new_cart, coupons)
   
   return total 
 end 
