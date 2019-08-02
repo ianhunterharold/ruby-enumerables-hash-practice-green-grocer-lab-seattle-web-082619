@@ -66,7 +66,7 @@ def apply_clearance (cart)
   end 
 end
 
-def checkout()
+def checkout(array_of_unsorted_items,array_of_coupons)
   
   
   
