@@ -67,8 +67,11 @@ def apply_clearance (cart)
 end
 
 def checkout(cart,coupons)
+  #define total
+  total = 0 
   
   
   
+  return total 
 end 
 
