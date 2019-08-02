@@ -75,8 +75,9 @@ def checkout(cart,coupons)
     total += description[:price]*(description[:count])
     
     end 
-    
-   total 
+    if (total > 100 ) 
+      total = (total*.90)
+      return total 
 end 
 
 
