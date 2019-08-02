@@ -70,12 +70,13 @@ def checkout(cart,coupons)
   total = 0
   final = apply_clearance(apply_coupons(consolidate_cart(cart), coupons))
   
-  final.each do |food,description|
+    final.each do |food,description|
   
     total += description[:price]*(description[:count])
     
-  end 
-  
+    end 
+    
+  total = (total * 0.9) if total > 100 total 
   return total
 end 
 
