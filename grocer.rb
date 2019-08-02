@@ -73,7 +73,7 @@ def checkout(cart,coupons)
   final.each do |food,description|
     total += description[:price]
   end 
-  return total 
+  return total
 end 
 
 
